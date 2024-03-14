@@ -18,8 +18,6 @@ Le cours est divisé en plusieurs sections couvrant les sujets suivants :
 
 6. **Gestion du son** : Vous apprendrez à charger, jouer et contrôler des fichiers audio pour ajouter des effets sonores et de la musique à votre jeu.
 
-7. **Création d'un jeu complet** : Vous mettrez en pratique tout ce que vous avez appris en créant un jeu complet, du concept à l'implémentation.
-
 ## Objectifs du cours
 
 À la fin de ce cours, vous serez en mesure de :
