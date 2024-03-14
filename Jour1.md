@@ -119,6 +119,5 @@ Pour charger et afficher des images dans votre jeu, vous pouvez utiliser la clas
 
 Pygame prend également en charge la lecture de sons. Vous pouvez charger un fichier sonore à l'aide de `pygame.mixer.Sound()` et le jouer avec la méthode `play()`.
 
-C'est un bon point de départ pour vous familiariser avec Pygame. Avec ces bases, vous pouvez commencer à créer des jeux simples et explorer davantage les fonctionnalités avancées de la bibliothèque.
 
 
