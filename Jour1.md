@@ -2,7 +2,7 @@
 
 ## Introduction à Pygame
 
-Pygame est une bibliothèque de développement de jeux en Python. Elle fournit des fonctionnalités pour créer des jeux 2D en offrant un accès facile à la gestion des graphismes, de l'audio et des entrées utilisateur.
+Pygame est une bibliothèque de développement de jeux en Python. Elle fournit des fonctionnalités pour créer des jeux en offrant un accès facile à la gestion des graphismes, de l'audio et des entrées utilisateur.
 
 ## Installation de Pygame
 
