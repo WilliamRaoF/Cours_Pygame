@@ -106,11 +106,8 @@ Ces événements sont déclenchés lorsque l'utilisateur clique sur un bouton de
 
 Pygame prend également en charge d'autres types d'événements, tels que les événements de joystick, de fenêtre, etc. Vous pouvez les utiliser en fonction des besoins spécifiques de votre jeu.
 
-## Conclusion
-
 La gestion des événements est une partie essentielle de la création de jeux avec Pygame. En comprenant comment détecter et réagir aux événements, vous pouvez créer des interactions utilisateur fluides et captivantes dans votre jeu. N'hésitez pas à expérimenter avec différents types d'événements pour répondre aux besoins spécifiques de votre jeu.
 
-Vous pouvez copier ce texte dans un fichier avec l'extension ".md" pour l'utiliser comme document Markdown.
 ## Dessin sur l'écran
 
 Pour dessiner des formes, des images ou du texte sur l'écran, vous utilisez les fonctions de dessin fournies par Pygame, telles que `pygame.draw.rect()`, `pygame.draw.circle()`, `pygame.draw.line()`, `pygame.draw.image()`, etc.
