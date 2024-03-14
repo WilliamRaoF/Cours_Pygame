@@ -62,7 +62,7 @@ pygame.quit()
 ## Gestion des événements
 Bien sûr ! Voici la partie détaillant la gestion des événements dans Pygame au format Markdown :
 
-```markdown
+
 # Gestion des événements dans Pygame
 
 Dans Pygame, les événements sont utilisés pour détecter les interactions de l'utilisateur avec le jeu, telles que les clics de souris, les touches du clavier, etc. La boucle principale de votre jeu est responsable de la gestion des événements en parcourant la file d'attente d'événements et en réagissant en conséquence.
