@@ -109,7 +109,6 @@ Pygame prend également en charge d'autres types d'événements, tels que les é
 ## Conclusion
 
 La gestion des événements est une partie essentielle de la création de jeux avec Pygame. En comprenant comment détecter et réagir aux événements, vous pouvez créer des interactions utilisateur fluides et captivantes dans votre jeu. N'hésitez pas à expérimenter avec différents types d'événements pour répondre aux besoins spécifiques de votre jeu.
-```
 
 Vous pouvez copier ce texte dans un fichier avec l'extension ".md" pour l'utiliser comme document Markdown.
 ## Dessin sur l'écran
