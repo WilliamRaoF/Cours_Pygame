@@ -1,4 +1,3 @@
-```markdown
 # Cours Pygame
 
 Ce cours vous guidera à travers les bases de Pygame, une bibliothèque de développement de jeux en Python. Vous apprendrez à créer des jeux 2D interactifs en utilisant Pygame pour gérer les graphismes, l'audio, les événements utilisateur et bien plus encore.
