@@ -109,11 +109,59 @@ La gestion des événements est une partie essentielle de la création de jeux a
 
 ## Dessin sur l'écran
 
-Pour dessiner des formes, des images ou du texte sur l'écran, vous utilisez les fonctions de dessin fournies par Pygame, telles que `pygame.draw.rect()`, `pygame.draw.circle()`, `pygame.draw.line()`, `pygame.draw.image()`, etc.
+Pygame offre de nombreuses fonctions pour dessiner des formes, des images et du texte sur l'écran. Cela vous permet de créer des éléments visuels pour votre jeu et de les mettre à jour en fonction de l'état du jeu.
 
-## Gestion des images
+### Dessin de formes géométriques
 
-Pour charger et afficher des images dans votre jeu, vous pouvez utiliser la classe `pygame.image.load()` pour charger l'image à partir d'un fichier, puis utiliser `blit()` pour l'afficher sur l'écran.
+Pygame fournit des fonctions simples pour dessiner des formes géométriques telles que des rectangles, des cercles et des lignes. Vous pouvez utiliser ces fonctions pour créer des éléments tels que des décors, des interfaces utilisateur et des effets visuels.
+
+Voici quelques exemples :
+
+#### Dessin d'un rectangle :
+
+```python
+pygame.draw.rect(screen, color, rect)
+```
+
+#### Dessin d'un cercle :
+
+```python
+pygame.draw.circle(screen, color, center, radius)
+```
+
+#### Dessin d'une ligne :
+
+```python
+pygame.draw.line(screen, color, start_pos, end_pos, width)
+```
+
+### Dessin d'images
+
+Pygame prend en charge le chargement et l'affichage d'images à partir de fichiers. Vous pouvez utiliser des images pour créer des personnages, des objets, des arrière-plans et d'autres éléments visuels dans votre jeu.
+
+Voici comment charger et afficher une image dans Pygame :
+
+```python
+image = pygame.image.load("nom_de_l_image.png")
+screen.blit(image, (x, y))
+```
+
+### Dessin de texte
+
+Pygame permet également de dessiner du texte sur l'écran. Vous pouvez utiliser cette fonctionnalité pour afficher des scores, des messages, des instructions et d'autres informations textuelles dans votre jeu.
+
+Voici comment dessiner du texte dans Pygame :
+
+```python
+font = pygame.font.Font(None, taille_police)
+texte_surface = font.render("Texte à afficher", True, couleur_texte)
+screen.blit(texte_surface, (x, y))
+```
+
+### Conclusion
+
+Le dessin sur l'écran est une partie essentielle du développement de jeux avec Pygame. En utilisant les fonctions de dessin fournies par Pygame, vous pouvez créer des éléments visuels attrayants et fonctionnels pour votre jeu. N'hésitez pas à expérimenter avec différentes formes, images et styles de texte pour donner vie à votre jeu !
+```
 
 ## Gestion du son
 
