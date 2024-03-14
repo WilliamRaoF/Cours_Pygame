@@ -30,4 +30,4 @@ Le cours est divisé en plusieurs sections couvrant les sujets suivants :
 - Dessiner des éléments graphiques sur l'écran, y compris des formes, des images et du texte.
 - Charger, jouer et contrôler des fichiers audio pour ajouter des effets sonores et de la musique à votre jeu.
 
-```
+
