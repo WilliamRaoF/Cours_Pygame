@@ -210,7 +210,7 @@ son.stop()
 ### Conclusion
 
 La gestion du son est une composante importante de l'expérience de jeu. En utilisant les fonctionnalités audio de Pygame, vous pouvez ajouter des effets sonores, de la musique de fond et d'autres éléments audio pour améliorer l'immersion et l'attrait de votre jeu.
-```
+
 
 
 
