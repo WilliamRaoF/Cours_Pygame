@@ -161,7 +161,7 @@ screen.blit(texte_surface, (x, y))
 ### Conclusion
 
 Le dessin sur l'écran est une partie essentielle du développement de jeux avec Pygame. En utilisant les fonctions de dessin fournies par Pygame, vous pouvez créer des éléments visuels attrayants et fonctionnels pour votre jeu. N'hésitez pas à expérimenter avec différentes formes, images et styles de texte pour donner vie à votre jeu !
-```
+
 
 ## Gestion du son
 
