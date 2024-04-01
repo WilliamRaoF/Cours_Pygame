@@ -1,6 +1,6 @@
 # Cours Pygame
 
-Ce cours vous guidera à travers les bases de Pygame, une bibliothèque de développement de jeux en Python. Vous apprendrez à créer des jeux 2D interactifs en utilisant Pygame pour gérer les graphismes, l'audio, les événements utilisateur et bien plus encore.
+Ce cours vous guidera à travers les bases de Pygame, une bibliothèque de développement de jeux en Python. Vous apprendrez à créer des jeux interactifs en utilisant Pygame pour gérer les graphismes, l'audio, les événements utilisateur et bien plus encore.
 
 ## Contenu du cours
 
@@ -22,7 +22,7 @@ Le cours est divisé en plusieurs sections couvrant les sujets suivants :
 
 À la fin de ce cours, vous serez en mesure de :
 
-- Créer des jeux 2D interactifs en utilisant Pygame.
+- Créer des jeux interactifs en utilisant Pygame.
 - Gérer les événements utilisateur tels que les clics de souris et les pressions de touches.
 - Dessiner des éléments graphiques sur l'écran, y compris des formes, des images et du texte.
 - Charger, jouer et contrôler des fichiers audio pour ajouter des effets sonores et de la musique à votre jeu.
