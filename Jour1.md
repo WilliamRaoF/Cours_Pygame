@@ -163,6 +163,67 @@ screen.blit(texte_surface, (x, y))
 Le dessin sur l'écran est une partie essentielle du développement de jeux avec Pygame. En utilisant les fonctions de dessin fournies par Pygame, vous pouvez créer des éléments visuels attrayants et fonctionnels pour votre jeu. N'hésitez pas à expérimenter avec différentes formes, images et styles de texte pour donner vie à votre jeu !
 
 
+## Détection de collisions dans Pygame
+
+Dans de nombreux jeux, la détection de collisions est essentielle pour déterminer quand des objets entrent en contact les uns avec les autres. Pygame offre des fonctionnalités pour détecter les collisions entre des formes géométriques telles que des rectangles et des cercles, ainsi que des images chargées à partir de fichiers.
+
+### Détection de collisions entre des rectangles
+
+Pygame fournit une méthode simple pour détecter les collisions entre des rectangles à l'aide de la méthode `colliderect()`. Cette méthode renvoie `True` si deux rectangles se chevauchent et `False` sinon.
+
+Voici un exemple de détection de collisions entre deux rectangles :
+
+```python
+rect1 = pygame.Rect(x1, y1, width1, height1)
+rect2 = pygame.Rect(x2, y2, width2, height2)
+
+if rect1.colliderect(rect2):
+    # Collision détectée
+else:
+    # Pas de collision
+```
+
+### Détection de collisions entre des cercles
+
+Pour détecter les collisions entre des cercles, vous pouvez utiliser la distance entre leurs centres et comparer cette distance à la somme de leurs rayons. Si la distance est inférieure ou égale à la somme des rayons, les cercles se chevauchent.
+
+Voici un exemple de détection de collisions entre deux cercles :
+
+```python
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+if distance <= radius1 + radius2:
+    # Collision détectée
+else:
+    # Pas de collision
+```
+
+### Détection de collisions avec des images
+
+Pour détecter les collisions avec des images chargées à partir de fichiers, vous pouvez utiliser la méthode `pygame.sprite.spritecollide()` fournie par Pygame. Cette méthode prend un sprite et un groupe de sprites et renvoie une liste des sprites du groupe qui entrent en collision avec le sprite donné.
+
+Voici un exemple de détection de collisions avec des images :
+
+```python
+sprite = pygame.sprite.Sprite()
+sprite.image = pygame.image.load("image.png")
+sprite.rect = sprite.image.get_rect()
+sprite.rect.x = x
+sprite.rect.y = y
+
+group = pygame.sprite.Group()
+group.add(sprite)
+
+collided_sprites = pygame.sprite.spritecollide(sprite, group, False)
+if collided_sprites:
+    # Collision détectée
+else:
+    # Pas de collision
+```
+
+### Conclusion
+
+La détection de collisions est une fonctionnalité essentielle dans de nombreux jeux. En utilisant les méthodes fournies par Pygame, vous pouvez détecter les collisions entre des formes géométriques, des cercles et des images pour créer des interactions réalistes entre les objets dans votre jeu.
+
 ## Gestion du son
 
 Pygame offre des fonctionnalités pour charger, jouer et contrôler des fichiers audio dans votre jeu. Cela vous permet d'ajouter des effets sonores, de la musique de fond et d'autres éléments audio pour améliorer l'expérience de jeu.
